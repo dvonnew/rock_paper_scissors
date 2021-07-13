@@ -5,9 +5,7 @@
     - Set this output to a var - computerSelection
     - return this output
 2. Player Round
-    - Two parameters
-        - playerSelection
-        - computerSelection
+    - set playerSelection = an event listener on the selected button
     - Check the values against one another
         - if playerSelection === computerSelection
             - return "It's a tie!"
@@ -31,8 +29,6 @@
             - console.log "You win! Scissor beats Rock"
     - return playerScore, computerScore      
 4. Game Function
-    - create a roundCount var = 0
-    - while roundCount <= 5
         - playerSelection = Prompt for player input (rock, paper, scissor)
             - convert string to islower
         - playRound(playerSelection, computerSelection)

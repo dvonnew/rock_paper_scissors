@@ -1,0 +1,78 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+div{
+    display:block;
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.scoreBoard{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.scoresBox{
+    justify-content: center;
+    display: inline-block;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5px;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.buttons{
+    display: flex;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-box{
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+button{
+    padding: 8px 11px;
+    border-radius: 5px;
+    background-color: rgb(247, 242, 242);
+    border: none;
+}
+
+button:hover{
+    border-style: solid;
+    border-color:rgb(133, 133, 133);
+    border-width: 1px;
+}
