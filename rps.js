@@ -5,12 +5,10 @@ let wins = document.getElementById('wins');
 let losses = document.getElementById('losses');
 let draws = document.getElementById('draws');
 
-function computerPlay(){
-    
+function computerPlay(){   
     const choices = ['rock', 'paper','scissors']
     const computerSelection = choices[Math.floor(Math.random()*choices.length)];
     return computerSelection;
-    
 }
 
 function displayScore(x, y, z) {
